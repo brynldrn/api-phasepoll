@@ -1,0 +1,20 @@
+{
+  "name": "api-phasepoll",
+  "version": "1.0.0",
+  "description": "Phase P - Online Poll App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Bryan Aldrin Quinalayo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^5.0.0-rc1",
+    "nodemon": "^1.14.7"
+  }
+}
